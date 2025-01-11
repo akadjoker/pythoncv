@@ -21,12 +21,13 @@ Testes para onfigurar e executar  detecção de objetos usando YOLO (Standard e 
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
    wget https://pjreddie.com/media/files/yolov3.weights
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
-   
+    ```
    OR
    
    ###    unzip yolo/yolov3.weights.z7 para extrair yolov3.weights
 
    TINY
+    ```
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3-tiny.cfg
    wget https://pjreddie.com/media/files/yolov3-tiny.weights
    ```
@@ -40,7 +41,10 @@ Testes para onfigurar e executar  detecção de objetos usando YOLO (Standard e 
 
 
 4. Utils:
+
+   ```bash
    ls /dev/video*
+    ```
 
 ## Ajustes e Melhorias
 
