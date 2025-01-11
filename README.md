@@ -57,7 +57,7 @@ Testes para onfigurar e executar  detecção de objetos usando YOLO (Standard e 
 
    - Modifica os limites de confiança nos scripts para filtrar detecções:
      ```python
-     if confidence > 0.5:  # Ajuste este valor conforme necessário
+     if confidence > 0.5:  
      ```
 
 2. **Redução de Resolução:**
