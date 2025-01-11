@@ -17,29 +17,32 @@ Testes para onfigurar e executar  detecção de objetos usando YOLO (Standard e 
 
 2.   YOLO:
 
-
+   ```bash
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
    wget https://pjreddie.com/media/files/yolov3.weights
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
 
+   ```
 
    OR
    
    ###    unzip yolo/yolov3.weights.z7 para extrair yolov3.weights
 
    TINY
-  
+     ```bash
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3-tiny.cfg
    wget https://pjreddie.com/media/files/yolov3-tiny.weights
 
+   ```
 
 3.   SSD:
 
+   ```bash
 
    wget https://github.com/chuanqi305/MobileNet-SSD/raw/master/deploy.prototxt -O MobileNetSSD_deploy.prototxt
    wget https://github.com/chuanqi305/MobileNet-SSD/raw/master/MobileNetSSD_deploy.caffemodel
 
-
+   ```
 
 4. Utils:
 
