@@ -8,7 +8,7 @@ Testes para onfigurar e executar  detecção de objetos usando YOLO (Standard e 
 
 ### Python
 
-1. Instale as dependências necessárias:
+1. Dependências :
 
    ```bash
    pip install opencv-python opencv-python-headless numpy
@@ -24,7 +24,7 @@ Testes para onfigurar e executar  detecção de objetos usando YOLO (Standard e 
    
    OR
    
-   ###    unzip yolo/yolov3.weights.z7
+   ###    unzip yolo/yolov3.weights.z7 para extrair yolov3.weights
 
    TINY
    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3-tiny.cfg
